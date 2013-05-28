@@ -1,0 +1,5 @@
+* 2090.html – the industries data webpage that I used in this example – it's part of the full website download you can get from the CIA https://www.cia.gov/library/publications/download/ 
+* HADOOP_COUNTRY_INDUSTRY script.sql – The basic EXASOL "CREATE SCRIPT" statement 
+* industries.java – the stand-alone java script I wrote to extract the data I needed from the 2090.html file – Java is not my main programming language so it definitely can be done better! 
+* EXAIndustry.java - The database version of the industries.java script – needs to be included in the Makefile when you build EXAhadoop.jar 
+* VW_HADOOP_COUNTRY_INDUSTRY.sql – A view I had to build to get the data is a good format 
